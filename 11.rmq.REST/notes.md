@@ -1,0 +1,1 @@
+[RabbitMQ REST](https://funprojects.blog/2019/11/08/rabbitmq-rest-api/)
