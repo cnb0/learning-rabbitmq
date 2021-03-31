@@ -3,7 +3,7 @@ module.exports.Init = function(example){
     console.log('');
     console.log('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -');
     console.log('- Instant RabbitMQ Messaging Application Development How-to.  -');
-    onsole.log('- ' + example + '                                                -');
+    console.log('- ' + example + '                                                -');
     console.log('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -');
     console.log('');
 
