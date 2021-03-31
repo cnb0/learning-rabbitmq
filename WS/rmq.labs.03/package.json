@@ -1,0 +1,9 @@
+{
+  "name": "packt-instant-rabbitmq",
+  "description": "Instant RabbitMQ Messaging Application Development How-to",
+  "version": "0.0.1",
+  "dependencies": {
+    "amqp": ">= 0.1.5",
+    "amqplib": "^0.7.1"
+  }
+}
