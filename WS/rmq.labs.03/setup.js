@@ -3,9 +3,7 @@ module.exports.Init = function(example){
     console.log('');
     console.log('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -');
     console.log('- Instant RabbitMQ Messaging Application Development How-to.  -');
-    console.log('- Packt Publishing.                                           -');
-    console.log('- Author: Andrew Keig.                                        -');
-    console.log('- ' + example + '                                                -');
+    onsole.log('- ' + example + '                                                -');
     console.log('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -');
     console.log('');
 
