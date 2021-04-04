@@ -1,0 +1,84 @@
+
+monolog:
+    handlers:
+        main:
+            type: stream
+            path: "%kernel.logs_dir%/%kernel.environment%.log"
+            level: error
+
+swarrot:
+    provider: pecl #amqp_lib
+    default_connection: rabbitmq
+    default_command: swarrot.command.base
+    connections:
+        rabbitmq:
+            host: haproxy
+            port: 5672
+            login: guest
+            password: guest
+            vhost: '/'
+
+    consumers:
+        test_consume_quickly: # name of the consumer
+            processor: processor.test_consume_quickly # name of the service
+            extras:
+                poll_interval: 500000
+                requeue_on_error: false
+            middleware_stack:
+                - configurator: swarrot.processor.signal_handler
+                - configurator: swarrot.processor.max_messages
+                  extras:
+                    max_messages: 100
+                - configurator: swarrot.processor.max_execution_time
+                  extras:
+                    max_execution_time: 30
+                - configurator: swarrot.processor.memory_limit
+                  extras:
+                      memory_limit: 50
+                - configurator: swarrot.processor.exception_catcher
+                - configurator: swarrot.processor.ack
+                - configurator: swarrot.processor.retry
+                  extras:
+                    retry_exchange: 'retry'
+                    retry_attempts: 3
+                    retry_routing_key_pattern: 'swarrot_retry_%%attempt%%'
+
+    messages_types:
+        my_publisher_1:
+            connection: rabbitmq
+            exchange: swarrot
+            routing_key: swarrot
+
+old_sound_rabbit_mq:
+    connections:
+        default:
+            host:     haproxy
+            port:     5672
+            user:     'guest'
+            password: 'guest'
+            vhost:    '/'
+            lazy:     true
+            connection_timeout: 3
+            read_write_timeout: 3
+            keepalive: false
+            heartbeat: 0
+
+            use_socket: false # default false
+#        another:
+#            # A different (unused) connection defined by an URL. One can omit all parts,
+#            # except the scheme (amqp:). If both segment in the URL and a key value (see above)
+#            # are given the value from the URL takes precedence.
+#            # See https://www.rabbitmq.com/uri-spec.html on how to encode values.
+#            url: 'amqp://guest:password@localhost:5672/vhost?lazy=1&connection_timeout=6'
+    producers:
+        oldsound:
+            connection:       default
+            exchange_options: {name: 'oldsound', type: direct}
+            service_alias:    oldsound_producer
+
+    consumers:
+        oldsound:
+            connection:       default
+            exchange_options: {name: 'oldsound', type: direct}
+            queue_options:    {name: 'oldsound', arguments: {'x-ha-policy': ['S', 'ha-oldsound']}}
+            callback:         oldsound_consumer
