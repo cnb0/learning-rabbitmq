@@ -8,6 +8,10 @@
             - Understanding best practices
  
 ```
+
+## [HA Cluster](https://www.fatalerrors.org/a/quickly-build-high-availability-rabbitmq-cluster-and-haproxy-soft-load.html)
+
+## [Highly Available RabbitMQ Cluster on Docker Swarm using Consul-based Discovery](https://medium.com/hepsiburadatech/implementing-highly-available-rabbitmq-cluster-on-docker-swarm-using-consul-based-discovery-45c4e7919634)
  
 # How to config rabbitmq server cluster [3 nodes]
 
