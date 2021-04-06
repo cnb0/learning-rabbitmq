@@ -28,7 +28,7 @@ Duration: 5 days
             - Viewing statistics and analyzing logs
             - Sending alerts
             - How to set up parallel processing
-        Bonus - minkube k8s, Docker, Docker Compose
+        Bonus - minikube k8s, Docker, Docker Compose
               
 
 4. A programmer perspective
