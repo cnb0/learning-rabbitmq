@@ -12,6 +12,7 @@ Duration: 5 days
             - Setting up the required folders
             - Operating system considerations
             - Downloading and installing RabbitMQ
+        Bonus - minikube, docker, k8s on cloud, ubuntu apt-get
 
 2. Understanding messaging
             - The role of a consumer
@@ -27,13 +28,17 @@ Duration: 5 days
             - Viewing statistics and analyzing logs
             - Sending alerts
             - How to set up parallel processing
+        Bonus - minkube k8s, Docker, Docker Compose
+              
 
 4. A programmer perspective
             - Installing and configuring Node.js
             - Understanding Node.js
             - Javascript and the amqplib client library
             - Sending and receiving messages using javascript on Node.js
-
+         Bonus - DevOps Node CI/CD lifecycle and practices  
+               - NodeJs MicroServices
+               
 5. Message patterns for developers via exchange routing
             - Simple message routing using the direct exchange
             - Creating the application architecture
@@ -65,6 +70,8 @@ Duration: 5 days
             - Distributing the nodes to more machines
             - How to preserve messages: mirrored queues
             - Understanding best practices
+        - Bonus - Docker , docker-compose based HA Cluster
+                - Google GKE , Azure 
 
 8. Implementing failover and replication
             - Setting up a load balancer-based master/slave
@@ -96,5 +103,4 @@ Duration: 5 days
             - Message durability and Message acknowledgement
             - Memory usage and process limits
             - Setting up SSL
-
-
+    
