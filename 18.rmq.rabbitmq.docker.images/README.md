@@ -1,2 +1,2 @@
 # DockerImages
-A repository of pretty random collection of docker images
+A repository of rabbitmq docker images
