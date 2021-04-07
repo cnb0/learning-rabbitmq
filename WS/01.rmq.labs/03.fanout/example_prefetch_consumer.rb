@@ -1,3 +1,4 @@
+require "bundler/setup"
 require "bunny"
 
 connection = Bunny.new ENV["RABBITMQ_URI"]

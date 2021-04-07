@@ -1,4 +1,5 @@
 #	1. Require client library
+require "bundler/setup"
 require "bunny"
 
 #	2. Read RABBITMQ_URI from ENV
