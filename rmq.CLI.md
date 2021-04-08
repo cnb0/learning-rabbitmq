@@ -1,7 +1,10 @@
 
 # rabbitmq-cheatsheet
 
+
 - [RabbitMQ CLI](https://www.rabbitmq.com/cli.html)
+- [rabbitmqctl] https://www.rabbitmq.com/rabbitmqctl.8.html
+
 
 RabbitMQ ships with multiple command line tools:
 
