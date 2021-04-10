@@ -1,10 +1,33 @@
 # learning-rabbitmq
 
-
-##  ADVANCED MESSAGE QUEUING WITH RABBIT MQ
+##  ADVANCED MESSAGE QUEUING WITH RABBIT MQ - Journey towards Cloud Native Microservices 
+## (Local install(baremetal) -> VM -> docker -> docker-compose -> minikube -> k8s on cloud(GCP/Azure))
 
 Duration: 5 days
+
 ```
+Highlights (RabbitMQ) : 
+    - 18+ Modules
+    - 12+ labs (offline/online)
+    - Ubuntu/Linux 20.04
+    - Vagrant(VM)
+    - docker/docker-compose( Containers)
+    - minikube(k8s)
+    - Google GKE/Azure Cloud (VM/k8s)
+    - RabbitMQ Cluster Kubernetes Operator
+    - Cloud Native Microservices
+    - DevOps ( CICD )
+    - Nodejs microservices
+    - python/IPython/go/ruby/js - langauge bindings
+    - Clustering HAProxy
+    - Monitoring Prometheus/Grafana
+    - Performance testing
+    - RabbitMQ Internals,
+    - RabbitMQ Plugins/CLI/WebUI/REST
+    - Best Practices RabbitMQ
+    - AMPQ Spec
+ 
+
 1. Introduction to RabbitMQ
             - Who’s using RabbitMQ, and how?
             - The advantages of loosely coupled architectures
@@ -12,7 +35,7 @@ Duration: 5 days
             - Setting up the required folders
             - Operating system considerations
             - Downloading and installing RabbitMQ
-        Bonus - minikube, docker, k8s on cloud, ubuntu apt-get
+        Bonus - local install ubunutu(apt-get), VM install(Vagrant), docker, docker-compose, minikube, on cloud (k8s,VM)
 
 2. Understanding messaging
             - The role of a consumer
@@ -83,8 +106,7 @@ Duration: 5 days
 9. Scaling RabbitMQ between datacenters
             - Understanding the goal of the federation plugin
             - Installing and configuring the federation plugin
-            - Active-passive high-availability clustering
-            - Active-active high-availability clustering
+            - Active-passive/Active-active high-availability clustering
             - Understanding best practices
 
 10. Web tools to administer RabbitMQ
@@ -92,7 +114,7 @@ Duration: 5 days
             - Managing RabbitMQ from the web console
             - Administering users from the web console
             - Managing queue from the web console
-            - Using the command line interface
+            - Using the CLI
 
 11. RabbitMQ and the REST API
             - REST API features
@@ -102,5 +124,4 @@ Duration: 5 days
 12. Monitoring and securing RabbitMQ
             - Message durability and Message acknowledgement
             - Memory usage and process limits
-            - Setting up SSL
-    
+            - Setting up SSL    
