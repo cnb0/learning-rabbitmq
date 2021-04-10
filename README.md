@@ -2,7 +2,7 @@
 
 ###  ADVANCED MESSAGE QUEUING WITH RABBIT MQ 
   - Journey towards Cloud Native Microservices 
-  - (Local install(baremetal) -> VM -> docker -> docker-compose -> minikube -> k8s on cloud(GCP/Azure))
+  - local OS install(baremetal) -> VM -> docker -> docker-compose -> minikube -> k8s on cloud(GCP/Azure)
 
 Duration: 5 days
 
