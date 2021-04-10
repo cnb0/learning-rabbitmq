@@ -1,0 +1,17 @@
+version: '3'
+services:
+  queue:
+    image: rabbitmq:3-management
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+  consumer:
+    image: localhost:5000/consumer:1.0.1
+    depends_on:
+      - queue
+  producer:
+    image: localhost:5000/producer:1.0.1
+    ports:
+      - '8000:3000'
+    depends_on:
+      - queue
