@@ -23,6 +23,8 @@
     - RabbitMQ Plugins/CLI/WebUI/REST
     - Best Practices RabbitMQ
     - AMPQ Spec
+    - Security SSL
+    - Troubleshooting Best Practices
  
 ```
 1. Introduction to RabbitMQ
