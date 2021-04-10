@@ -1,13 +1,8 @@
-# learning-rabbitmq
-
-###  ADVANCED MESSAGE QUEUING WITH RABBIT MQ 
+## learning-rabbitmq - ADVANCED MESSAGE QUEUING WITH RABBIT MQ 
   - Journey towards Cloud Native Microservices 
   - local OS install(baremetal) -> VM -> docker -> docker-compose -> minikube -> k8s on cloud(GCP/Azure)
 
-Duration: 5 days
-
-
-### Highlights (Advanced RabbitMQ) : 
+### Highlights (Advanced RabbitMQ) - Duration: 5 days : 
     - 18+ Modules
     - 12+ labs (offline/online)
     - Ubuntu/Linux 20.04
