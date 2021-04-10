@@ -6,8 +6,8 @@
 
 Duration: 5 days
 
-```
-Highlights (RabbitMQ) : 
+
+### Highlights (Advanced RabbitMQ) : 
     - 18+ Modules
     - 12+ labs (offline/online)
     - Ubuntu/Linux 20.04
@@ -29,7 +29,7 @@ Highlights (RabbitMQ) :
     - Best Practices RabbitMQ
     - AMPQ Spec
  
-
+```
 1. Introduction to RabbitMQ
             - Who’s using RabbitMQ, and how?
             - The advantages of loosely coupled architectures
