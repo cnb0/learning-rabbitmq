@@ -1,8 +1,8 @@
 # learning-rabbitmq
 
 ###  ADVANCED MESSAGE QUEUING WITH RABBIT MQ 
-    - Journey towards Cloud Native Microservices 
-    - (Local install(baremetal) -> VM -> docker -> docker-compose -> minikube -> k8s on cloud(GCP/Azure))
+  - Journey towards Cloud Native Microservices 
+  - (Local install(baremetal) -> VM -> docker -> docker-compose -> minikube -> k8s on cloud(GCP/Azure))
 
 Duration: 5 days
 
@@ -17,6 +17,7 @@ Highlights (RabbitMQ) :
     - Google GKE/Azure Cloud (VM/k8s)
     - RabbitMQ Cluster Kubernetes Operator
     - Cloud Native Microservices
+    - Chaos Engineering
     - DevOps ( CICD )
     - Nodejs microservices
     - python/IPython/go/ruby/js - langauge bindings
