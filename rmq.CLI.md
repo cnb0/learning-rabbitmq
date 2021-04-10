@@ -64,6 +64,28 @@ RabbitMQ ships with multiple command line tools:
 * $ ls -altr /var/log/rabbitmq/*
 
 
+## rabbitmq-diagnostics  
+
+rabbitmq-diagnostics node_health_check
+rabbitmq-diagnostics ping
+rabbitmq-diagnostics check_running
+rabbitmq-diagnostics -q check_virtual_hosts
+rabbitmq-diagnostics -q check_port_connectivity
+rabbitmq-diagnostics -q listeners
+rabbitmq-diagnostics -q memory_breakdown --unit "MB"
+rabbitmq-diagnostics -q check_running && rabbitmq-diagnostics -q check_local_alarms
+rabbitmq-diagnostics -q alarms
+rabbitmq-diagnostics -q status
+
+
+
+
+
+
+
+
+
+
 
 
 
