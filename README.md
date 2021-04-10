@@ -1,7 +1,8 @@
 # learning-rabbitmq
 
-##  ADVANCED MESSAGE QUEUING WITH RABBIT MQ - Journey towards Cloud Native Microservices 
-## (Local install(baremetal) -> VM -> docker -> docker-compose -> minikube -> k8s on cloud(GCP/Azure))
+###  ADVANCED MESSAGE QUEUING WITH RABBIT MQ 
+    - Journey towards Cloud Native Microservices 
+    - (Local install(baremetal) -> VM -> docker -> docker-compose -> minikube -> k8s on cloud(GCP/Azure))
 
 Duration: 5 days
 
@@ -35,7 +36,8 @@ Highlights (RabbitMQ) :
             - Setting up the required folders
             - Operating system considerations
             - Downloading and installing RabbitMQ
-        Bonus - local install ubunutu(apt-get), VM install(Vagrant), docker, docker-compose, minikube, on cloud (k8s,VM)
+        Bonus - local install ubunutu(apt-get), VM install(Vagrant), docker, docker-compose,
+                minikube, on cloud (k8s,VM)
 
 2. Understanding messaging
             - The role of a consumer
