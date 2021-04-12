@@ -65,7 +65,7 @@ RabbitMQ ships with multiple command line tools:
 
 
 ## rabbitmq-diagnostics  
-
+```
 rabbitmq-diagnostics node_health_check
 rabbitmq-diagnostics ping
 rabbitmq-diagnostics check_running
