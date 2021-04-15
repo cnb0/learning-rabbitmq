@@ -31,7 +31,6 @@ if __name__ == "__main__":
     msg_count = int(get_mandatory_arg(args, "--msg-count"))
     print_mod = int(get_optional_arg(args, "--print-mod", "1000"))
     use_confirms = is_true(get_mandatory_arg(args, "--use-confirms"))
-    use_amqproxy = is_true(get_mandatory_arg(args, "--use-amqproxy"))
     use_toxiproxy = is_true(get_mandatory_arg(args, "--use-toxiproxy"))
     mgmt_ip = get_mandatory_arg(args, "--mgmt-ip")
     mgmt_port = get_mandatory_arg(args, "--mgmt-port")
