@@ -2,6 +2,10 @@
 
 var amqp = require('amqplib/callback_api');
 
+// if vhost is vbot
+//amqp.connect('amqp://guest:guest@localhost:5672/vbot', function(error0, connection) {
+//amqp.connect('amqp://guest:guest@localhost/vbot', function(error0, connection) {
+
 amqp.connect('amqp://localhost', function(error0, connection) {
     if (error0) {
         throw error0;
