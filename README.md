@@ -25,9 +25,9 @@
     - RabbitMQ Internals,
     - RabbitMQ Plugins/CLI/WebUI/REST
     - Best Practices RabbitMQ
-    - AMPQ Spec
+    - AMPQ Spec/Verbs
     - Security SSL
-    - Troubleshooting Best Practices
+    - Troubleshooting Best Practices (Wireshark,Tracing )
  
 ```
 1. Introduction to RabbitMQ
